@@ -15,9 +15,9 @@ VERSION="16.04.2 LTS (Xenial Xerus)"
 
 ### Go実行環境のインストール　（無い場合）
 ```
-wget https://dl.google.com/go/go1.10.3.linux-amd64.tar.gz
+wget https://dl.google.com/go/go1.14.4.linux-amd64.tar.gz
 sudo rm -rf /usr/local/go
-sudo tar -C /usr/local -xzf go1.10.3.linux-amd64.tar.gz
+sudo tar -C /usr/local -xzf go1.14.4.linux-amd64.tar.gz
 export PATH=$PATH:/usr/local/go/bin
 # 必要であれば、bashrcなどにPATHを追加する
 ```
