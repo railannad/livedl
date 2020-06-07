@@ -1,14 +1,13 @@
+# 更新
+2020.06.08 - APIの仕様変更に対応  
+http://egg.5ch.net/test/read.cgi/software/1570634489/535
+
 # livedl
 新配信(HTML5)に対応したニコ生録画ツール。ニコ生以外のサイトにも対応予定
 
 ## 使い方
 https://himananiito.hatenablog.jp/entry/livedl
 を参照
-
-# 更新
-2020.06.08 - APIの仕様変更に対応
-http://egg.5ch.net/test/read.cgi/software/1570634489/535
-
 
 ## Linux(Ubuntu)でのビルド方法
 ```
