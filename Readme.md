@@ -46,7 +46,9 @@ go get github.com/gin-gonic/gin
 
 ### livedlのソースを取得
 ```
-git clone https://github.com/himananiito/livedl.git
+git clone https://github.com/hanaonnao/livedl.git
+
+（元は　git clone https://github.com/himananiito/livedl.git）
 ```
 
 ### livedlのコンパイル
