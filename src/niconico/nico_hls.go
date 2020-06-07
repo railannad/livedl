@@ -172,6 +172,7 @@ func NewHls(opt options.Option, prop map[string]interface{}) (hls *NicoHls, err 
 		}
 	}
 
+	
 	// ユーザ名
 	if userName, ok := prop["userName"]; ok {
 		uname, _ = userName.(string)
