@@ -1,9 +1,19 @@
-# 更新
+# livedl
+新配信(HTML5)に対応したニコ生録画ツール。ニコ生以外のサイトにも対応予定
+
+## 更新
+### 更新履歴
 2020.06.08 - APIの仕様変更に対応  
 http://egg.5ch.net/test/read.cgi/software/1570634489/535
 
-# livedl
-新配信(HTML5)に対応したニコ生録画ツール。ニコ生以外のサイトにも対応予定
+### 更新方法
+
+livedlの<label style="color:red">**親ディレクトリ**</label>に移動、livedlを削除します
+```
+rm -rf livedl
+```
+ビルドを再実行し、Livedlビルドする。
+
 
 ## 使い方
 https://himananiito.hatenablog.jp/entry/livedl
@@ -13,7 +23,7 @@ https://himananiito.hatenablog.jp/entry/livedl
 ```
 cat /etc/os-release
 NAME="Ubuntu"
-VERSION="16.04.2 LTS (Xenial Xerus)"
+VERSION="18.04.4 LTS (Bionic Beaver)"
 ```
 
 ### Go実行環境のインストール　（無い場合）
@@ -57,9 +67,9 @@ git clone https://github.com/hanaonnao/livedl.git
 cd livedl
 ```
 
-#### (オプション)特定のバージョンを選択する場合
+#### ~~(オプション)特定のバージョンを選択する場合~~
 ```
-$ git tag
+~$ git tag
 20180513.6
 20180514.7
 ...
@@ -68,7 +78,7 @@ $ git tag
 $ git checkout 20180729.21 （選んだバージョン）
 ```
 
-#### (オプション)最新のコードをビルドする場合
+#### ~~(オプション)最新のコードをビルドする場合~~
 ```
 git checkout master
 ```
